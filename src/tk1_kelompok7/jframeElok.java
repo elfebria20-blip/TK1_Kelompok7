@@ -8,14 +8,14 @@ package tk1_kelompok7;
  *
  * @author macproi52019
  */
-public class dashboard extends javax.swing.JFrame {
+public class jframeElok extends javax.swing.JFrame {
     
-    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(dashboard.class.getName());
+    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(jframeElok.class.getName());
 
     /**
-     * Creates new form dashboard
+     * Creates new form jframeElok
      */
-    public dashboard() {
+    public jframeElok() {
         initComponents();
     }
 
@@ -29,6 +29,7 @@ public class dashboard extends javax.swing.JFrame {
     private void initComponents() {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setPreferredSize(new java.awt.Dimension(602, 413));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -66,7 +67,7 @@ public class dashboard extends javax.swing.JFrame {
         //</editor-fold>
 
         /* Create and display the form */
-        java.awt.EventQueue.invokeLater(() -> new dashboard().setVisible(true));
+        java.awt.EventQueue.invokeLater(() -> new jframeElok().setVisible(true));
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
