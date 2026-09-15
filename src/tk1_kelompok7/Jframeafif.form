@@ -295,7 +295,7 @@
               <Properties>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/tk1_kelompok7/icone/WhatsApp Image 2026-09-15 at 20.28.20 (2).jpeg"/>
+                  <Image iconType="3" name="/tk1_kelompok7/icone/WhatsApp Image 2026-09-15 at 20.28.20 (3).jpeg"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Foto"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -391,7 +391,7 @@
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="jLabel2" pref="182" max="32767" attributes="0"/>
+                          <Component id="jLabel2" pref="184" max="32767" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                       </Group>
                   </Group>

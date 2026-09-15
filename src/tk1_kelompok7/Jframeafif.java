@@ -114,7 +114,7 @@ public class Jframeafif extends javax.swing.JFrame {
         jPanel4.setBackground(new java.awt.Color(255, 255, 255));
 
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok7/icone/WhatsApp Image 2026-09-15 at 20.28.20 (2).jpeg"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok7/icone/WhatsApp Image 2026-09-15 at 20.28.20 (3).jpeg"))); // NOI18N
         jLabel1.setText("Foto");
         jLabel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
@@ -158,7 +158,7 @@ public class Jframeafif extends javax.swing.JFrame {
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel5Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, 182, Short.MAX_VALUE)
+                .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, 184, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
