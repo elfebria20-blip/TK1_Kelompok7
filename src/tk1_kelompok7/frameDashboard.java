@@ -58,6 +58,11 @@ public class frameDashboard extends javax.swing.JFrame {
         jLabel2.setText("Menu Navigasi From Mahasiswa | Pemrograman Berorientasi Objek | Kelompok 7");
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok7/icone/icons8-close-20.png"))); // NOI18N
+        jLabel4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel4MouseClicked(evt);
+            }
+        });
 
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok7/icone/l.png"))); // NOI18N
 
@@ -253,6 +258,11 @@ public class frameDashboard extends javax.swing.JFrame {
         frame.setVisible(true);
         dispose();
     }//GEN-LAST:event_btnRisyadActionPerformed
+
+    private void jLabel4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel4MouseClicked
+        // TODO add your handling code here:
+        System.exit(0);
+    }//GEN-LAST:event_jLabel4MouseClicked
 
     /**
      * @param args the command line arguments
