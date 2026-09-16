@@ -55,7 +55,7 @@ public class JFramejaan extends javax.swing.JFrame {
 
         jPanel1.setLayout(new java.awt.BorderLayout());
 
-        jPanel3.setBackground(new java.awt.Color(153, 51, 0));
+        jPanel3.setBackground(new java.awt.Color(51, 204, 255));
         jPanel3.setPreferredSize(new java.awt.Dimension(630, 10));
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
@@ -71,13 +71,13 @@ public class JFramejaan extends javax.swing.JFrame {
 
         jPanel1.add(jPanel3, java.awt.BorderLayout.PAGE_END);
 
-        jPanel2.setBackground(new java.awt.Color(153, 51, 0));
+        jPanel2.setBackground(new java.awt.Color(51, 204, 255));
         jPanel2.setPreferredSize(new java.awt.Dimension(607, 40));
 
         jLabel11.setBackground(new java.awt.Color(255, 255, 255));
         jLabel11.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jLabel11.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel11.setText("BPO   |   GROUP 7");
+        jLabel11.setText("PBO   |   GROUP 7");
 
         jLabel12.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel12.setForeground(new java.awt.Color(255, 255, 255));
@@ -163,7 +163,7 @@ public class JFramejaan extends javax.swing.JFrame {
 
         jLabel4.setFont(new java.awt.Font("Segoe UI", 0, 8)); // NOI18N
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel4.setText("BPO   |   GROUP 7");
+        jLabel4.setText("PBO   |   GROUP 7");
 
         jLabel19.setFont(new java.awt.Font("Baskerville Old Face", 0, 14)); // NOI18N
         jLabel19.setText("ADDRESS");
