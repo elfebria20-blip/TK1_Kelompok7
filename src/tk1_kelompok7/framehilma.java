@@ -58,7 +58,7 @@ public class framehilma extends javax.swing.JFrame {
 
         jPanel1.setLayout(new java.awt.BorderLayout());
 
-        jPanel3.setBackground(new java.awt.Color(153, 51, 0));
+        jPanel3.setBackground(new java.awt.Color(51, 204, 255));
         jPanel3.setPreferredSize(new java.awt.Dimension(630, 10));
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
@@ -74,7 +74,7 @@ public class framehilma extends javax.swing.JFrame {
 
         jPanel1.add(jPanel3, java.awt.BorderLayout.PAGE_END);
 
-        jPanel2.setBackground(new java.awt.Color(153, 51, 0));
+        jPanel2.setBackground(new java.awt.Color(51, 204, 255));
         jPanel2.setPreferredSize(new java.awt.Dimension(607, 40));
 
         jLabel11.setBackground(new java.awt.Color(255, 255, 255));
