@@ -165,7 +165,7 @@ public class framerisyad extends javax.swing.JFrame {
         jLabel20.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel20.setText("KEDIRI, 08 - 02 - 2006");
 
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok7/icone/QR-2.jpeg"))); // NOI18N
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok7/icone/rsyd.png"))); // NOI18N
         jLabel5.setText("jLabel5");
         jLabel5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
