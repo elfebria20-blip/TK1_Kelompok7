@@ -34,14 +34,14 @@ public class frameDashboard extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
-        jButton1 = new javax.swing.JButton();
+        btnElok = new javax.swing.JButton();
         jPanel3 = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
-        jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
-        jButton5 = new javax.swing.JButton();
-        jButton6 = new javax.swing.JButton();
+        btnHilma = new javax.swing.JButton();
+        btnAfif = new javax.swing.JButton();
+        btnJaan = new javax.swing.JButton();
+        btnNasrul = new javax.swing.JButton();
+        btnRisyad = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
@@ -100,12 +100,13 @@ public class frameDashboard extends javax.swing.JFrame {
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
 
-        jButton1.setBackground(new java.awt.Color(51, 204, 255));
-        jButton1.setFont(new java.awt.Font("Helvetica Neue", 1, 18)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(255, 255, 255));
-        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok7/icone/U.png"))); // NOI18N
-        jButton1.setText("ELOK DWI WINDIARTI");
-        jButton1.setIconTextGap(10);
+        btnElok.setBackground(new java.awt.Color(51, 204, 255));
+        btnElok.setFont(new java.awt.Font("Helvetica Neue", 1, 18)); // NOI18N
+        btnElok.setForeground(new java.awt.Color(255, 255, 255));
+        btnElok.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok7/icone/U.png"))); // NOI18N
+        btnElok.setText("ELOK DWI WINDIARTI");
+        btnElok.setIconTextGap(10);
+        btnElok.addActionListener(this::btnElokActionPerformed);
 
         jLabel3.setFont(new java.awt.Font("Hiragino Mincho ProN", 0, 12)); // NOI18N
         jLabel3.setText("Praktikum PBO - Kelompok 7 • Institut Teknologi Mojosari ");
@@ -127,41 +128,45 @@ public class frameDashboard extends javax.swing.JFrame {
                 .addGap(15, 15, 15))
         );
 
-        jButton2.setBackground(new java.awt.Color(51, 204, 255));
-        jButton2.setFont(new java.awt.Font("Helvetica Neue", 1, 18)); // NOI18N
-        jButton2.setForeground(new java.awt.Color(255, 255, 255));
-        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok7/icone/U.png"))); // NOI18N
-        jButton2.setText("HILMA AYU FAIHZA");
-        jButton2.setIconTextGap(10);
+        btnHilma.setBackground(new java.awt.Color(51, 204, 255));
+        btnHilma.setFont(new java.awt.Font("Helvetica Neue", 1, 18)); // NOI18N
+        btnHilma.setForeground(new java.awt.Color(255, 255, 255));
+        btnHilma.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok7/icone/U.png"))); // NOI18N
+        btnHilma.setText("HILMA AYU FAIHZA");
+        btnHilma.setIconTextGap(10);
+        btnHilma.addActionListener(this::btnHilmaActionPerformed);
 
-        jButton3.setBackground(new java.awt.Color(51, 204, 255));
-        jButton3.setFont(new java.awt.Font("Helvetica Neue", 1, 18)); // NOI18N
-        jButton3.setForeground(new java.awt.Color(255, 255, 255));
-        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok7/icone/U.png"))); // NOI18N
-        jButton3.setText("MOH AFIFUR ROHMAN");
-        jButton3.setIconTextGap(10);
+        btnAfif.setBackground(new java.awt.Color(51, 204, 255));
+        btnAfif.setFont(new java.awt.Font("Helvetica Neue", 1, 18)); // NOI18N
+        btnAfif.setForeground(new java.awt.Color(255, 255, 255));
+        btnAfif.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok7/icone/U.png"))); // NOI18N
+        btnAfif.setText("MOH AFIFUR ROHMAN");
+        btnAfif.setIconTextGap(10);
+        btnAfif.addActionListener(this::btnAfifActionPerformed);
 
-        jButton4.setBackground(new java.awt.Color(51, 204, 255));
-        jButton4.setFont(new java.awt.Font("Helvetica Neue", 1, 18)); // NOI18N
-        jButton4.setForeground(new java.awt.Color(255, 255, 255));
-        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok7/icone/U.png"))); // NOI18N
-        jButton4.setText("M. JA'AN NUR ROHMAN");
-        jButton4.setIconTextGap(10);
+        btnJaan.setBackground(new java.awt.Color(51, 204, 255));
+        btnJaan.setFont(new java.awt.Font("Helvetica Neue", 1, 18)); // NOI18N
+        btnJaan.setForeground(new java.awt.Color(255, 255, 255));
+        btnJaan.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok7/icone/U.png"))); // NOI18N
+        btnJaan.setText("M. JA'AN NUR ROHMAN");
+        btnJaan.setIconTextGap(10);
+        btnJaan.addActionListener(this::btnJaanActionPerformed);
 
-        jButton5.setBackground(new java.awt.Color(51, 204, 255));
-        jButton5.setFont(new java.awt.Font("Helvetica Neue", 1, 18)); // NOI18N
-        jButton5.setForeground(new java.awt.Color(255, 255, 255));
-        jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok7/icone/U.png"))); // NOI18N
-        jButton5.setText("M NASRUL AZIZ");
-        jButton5.setIconTextGap(10);
-        jButton5.addActionListener(this::jButton5ActionPerformed);
+        btnNasrul.setBackground(new java.awt.Color(51, 204, 255));
+        btnNasrul.setFont(new java.awt.Font("Helvetica Neue", 1, 18)); // NOI18N
+        btnNasrul.setForeground(new java.awt.Color(255, 255, 255));
+        btnNasrul.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok7/icone/U.png"))); // NOI18N
+        btnNasrul.setText("M NASRUL AZIZ");
+        btnNasrul.setIconTextGap(10);
+        btnNasrul.addActionListener(this::btnNasrulActionPerformed);
 
-        jButton6.setBackground(new java.awt.Color(51, 204, 255));
-        jButton6.setFont(new java.awt.Font("Helvetica Neue", 1, 18)); // NOI18N
-        jButton6.setForeground(new java.awt.Color(255, 255, 255));
-        jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok7/icone/U.png"))); // NOI18N
-        jButton6.setText("ACHMAD RISYAD KHADAPI");
-        jButton6.setIconTextGap(10);
+        btnRisyad.setBackground(new java.awt.Color(51, 204, 255));
+        btnRisyad.setFont(new java.awt.Font("Helvetica Neue", 1, 18)); // NOI18N
+        btnRisyad.setForeground(new java.awt.Color(255, 255, 255));
+        btnRisyad.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok7/icone/U.png"))); // NOI18N
+        btnRisyad.setText("ACHMAD RISYAD KHADAPI");
+        btnRisyad.setIconTextGap(10);
+        btnRisyad.addActionListener(this::btnRisyadActionPerformed);
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -171,14 +176,14 @@ public class frameDashboard extends javax.swing.JFrame {
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGap(68, 68, 68)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jButton3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jButton4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 321, Short.MAX_VALUE)
-                    .addComponent(jButton1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(btnAfif, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btnJaan, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 321, Short.MAX_VALUE)
+                    .addComponent(btnElok, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(34, 34, 34)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jButton2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jButton5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jButton6, javax.swing.GroupLayout.DEFAULT_SIZE, 321, Short.MAX_VALUE))
+                    .addComponent(btnHilma, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btnNasrul, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btnRisyad, javax.swing.GroupLayout.DEFAULT_SIZE, 321, Short.MAX_VALUE))
                 .addContainerGap(58, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
@@ -186,16 +191,16 @@ public class frameDashboard extends javax.swing.JFrame {
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGap(41, 41, 41)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(btnElok, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnHilma, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(41, 41, 41)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(btnNasrul, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnJaan, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(41, 41, 41)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(btnRisyad, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnAfif, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 41, Short.MAX_VALUE)
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
@@ -206,9 +211,48 @@ public class frameDashboard extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+    private void btnNasrulActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNasrulActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton5ActionPerformed
+        JframeAziz frame = new JframeAziz();
+        frame.setVisible(true);
+        dispose();
+    }//GEN-LAST:event_btnNasrulActionPerformed
+
+    private void btnElokActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnElokActionPerformed
+        // TODO add your handling code here:
+        jframeelok frame = new jframeelok();
+        frame.setVisible(true);
+        dispose();
+        
+    }//GEN-LAST:event_btnElokActionPerformed
+
+    private void btnHilmaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnHilmaActionPerformed
+        // TODO add your handling code here:
+        framehilma frame = new framehilma();
+        frame.setVisible(true);
+        dispose();
+    }//GEN-LAST:event_btnHilmaActionPerformed
+
+    private void btnJaanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnJaanActionPerformed
+        // TODO add your handling code here:
+        JFramejaan frame = new JFramejaan();
+        frame.setVisible(true);
+        dispose();
+    }//GEN-LAST:event_btnJaanActionPerformed
+
+    private void btnAfifActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAfifActionPerformed
+        // TODO add your handling code here:
+        Jframeafif frame = new Jframeafif();
+        frame.setVisible(true);
+        dispose();
+    }//GEN-LAST:event_btnAfifActionPerformed
+
+    private void btnRisyadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRisyadActionPerformed
+        // TODO add your handling code here:
+        framerisyad frame = new framerisyad();
+        frame.setVisible(true);
+        dispose();
+    }//GEN-LAST:event_btnRisyadActionPerformed
 
     /**
      * @param args the command line arguments
@@ -236,12 +280,12 @@ public class frameDashboard extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
+    private javax.swing.JButton btnAfif;
+    private javax.swing.JButton btnElok;
+    private javax.swing.JButton btnHilma;
+    private javax.swing.JButton btnJaan;
+    private javax.swing.JButton btnNasrul;
+    private javax.swing.JButton btnRisyad;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
