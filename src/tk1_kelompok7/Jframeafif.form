@@ -199,8 +199,8 @@
                                   </Group>
                                   <Group type="103" alignment="1" groupAlignment="0" attributes="0">
                                       <Component id="jLabel8" alignment="0" min="-2" pref="379" max="-2" attributes="0"/>
-                                      <Component id="jLabel9" alignment="0" min="-2" pref="316" max="-2" attributes="0"/>
                                       <Component id="jLabel10" alignment="0" min="-2" pref="344" max="-2" attributes="0"/>
+                                      <Component id="jLabel9" alignment="0" min="-2" pref="329" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                               <EmptySpace max="32767" attributes="0"/>
